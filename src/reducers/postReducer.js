@@ -18,7 +18,7 @@ function postReducer(state = initialState, action){
         let newData = [...state];
         newData[index] = payload;
         
-        return {...state,...newData};
+        return newData;
         }
 
         case DELETE_POST:

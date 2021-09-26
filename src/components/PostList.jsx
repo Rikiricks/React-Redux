@@ -91,7 +91,7 @@ class PostList extends Component {
           </div>
         </div>
         <div className="col-md-6">
-          <h4>Tutorials List</h4>
+          <h4>Post List</h4>
 
           <ul className="list-group">
             {posts &&
@@ -149,7 +149,7 @@ class PostList extends Component {
           ) : (
             <div>
               <br />
-              <p>Please click on a Tutorial...</p>
+              <p>Please click on a Post..</p>
             </div>
           )}
         </div>
@@ -159,7 +159,7 @@ class PostList extends Component {
 }
 
 const mapStateToProps = (state) => {
-    
+    debugger;
     return {
         posts: state.posts
     }

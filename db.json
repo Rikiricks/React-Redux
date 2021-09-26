@@ -1,14 +1,9 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "description": "typicode"
-    },
-    {
       "id": 2,
-      "title": "test",
-      "description": "test",
+      "title": "test raj",
+      "description": "rsj tes",
       "published": false,
       "submitted": false
     },
@@ -27,13 +22,7 @@
       "submitted": false
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
